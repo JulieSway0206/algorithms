@@ -57,6 +57,8 @@ class Solution {
 }
 
 //Approach 2: Inorder Simulation
+//Hint:Uses of Inorder 
+//In the case of binary search trees (BST), Inorder traversal gives nodes in non-decreasing order. To get nodes of BST in non-increasing order, a variation of Inorder traversal where Inorder traversal s reversed can be used. 
 /**
  * Definition for singly-linked list.
  * public class ListNode {

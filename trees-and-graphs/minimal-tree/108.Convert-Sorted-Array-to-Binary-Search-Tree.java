@@ -15,6 +15,11 @@ preorder(root.left)                             [root.val]
 preorder(root.right)                            inorder(root.right)
 if root else []                                 if root else []
 
+Uses of Inorder:
+In the case of binary search trees (BST), Inorder traversal gives nodes in non-decreasing order. 
+To get nodes of BST in non-increasing order, a variation of Inorder traversal where Inorder traversal s reversed can be used.                                
+
+
 3. DFS Postorder (Left -> Right -> Node)        4. BFS (Node -> Left -> Right)
 postorder(root.left)                            iterations with the queue
 postorder(root.right)
