@@ -110,3 +110,5 @@ class Solution {
     return -1;
   }
 }
+
+//Approach 3: the same as 81. Search in Rotated Sorted Array II
