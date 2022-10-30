@@ -17,6 +17,12 @@
 // A single left shift multiplies a binary number by 2
 // For positive numbers, a single logical right shift divides a number by 2
 // https://www.interviewcake.com/concept/java/bit-shift
+// Prerequisites: left and right shifts
+// To speed up, one could use here bitwise shifts:
+// Left shift: x << 1. The same as multiplying by 2: x * 2.
+// Right shift: x >> 1. The same as dividing by 2: x / 2.
+
+
 
 //Approach:
 // Define Search Boundaries:
