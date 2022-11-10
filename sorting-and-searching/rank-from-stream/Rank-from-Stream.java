@@ -13,6 +13,12 @@
 // Output : Rank of 20 in stream is: 8
 
 // https://www.geeksforgeeks.org/rank-element-stream/
+//A relatively easy way to implement this is to use an array that holds all the elements in sorted order. When a new element is inserted we would shift the elements. Then we perform a binary search on the array to get the right-most index of x and return that index. getRank(x) would work in O(log n) but insertion would be costly.
+//insertion in sorted array O(n)
+//https://www.geeksforgeeks.org/search-insert-and-delete-in-a-sorted-array/
+//https://iq.opengenus.org/time-and-space-complexity-of-binary-search-tree/
+//Average case time complexity for search in binary search tree is O(logn) (for balanced binary search tree is O(logn))
+//Average case time complexity for insertion in binary search tree is O(logn)
 
 // Java program to find rank of an
 // element in a stream.
